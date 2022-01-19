@@ -6,8 +6,8 @@ phases:
       java: corretto11 
   build:
     commands:
-      - ./gradlew build --scan
+      - ./gradlew build 
 artifacts:
   files:
-    - '*-all.war'
+    - target/*.war
  
