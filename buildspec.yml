@@ -9,5 +9,5 @@ phases:
       - ./gradlew build --scan
 artifacts:
   files:
-    - '*-all.jar'
+    - '*-all.war'
  
